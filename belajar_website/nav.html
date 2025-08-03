@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+<style>
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        border: 1px;
+        background-color: rgb(192, 168, 157);
+    }
+
+    li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: bisque;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover:not(.active) {
+        background-color: rgb(97, 72, 72);
+    }
+
+    li a.active {
+        color: white;
+        background-color: rgb(244, 227, 227);
+    }
+</style>
+</head>
+<body>
+   <ul class="active">
+    <li><a href="#home">Beranda</a></li>
+    <li><a href="#news">Berita</a></li>
+    <li><a href="#contact">Kontak</a></li>
+    <li><a href="#about">Tentang</a></li>
+   </ul>
+    
+</body>
+</html>

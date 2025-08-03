@@ -1,0 +1,3 @@
+<title>: Menentukan judul halaman yang muncul di tab browser.
+<heading>: elemen yang digunakan untuk mendefinisikan judul dan subjudul dalam sebuah halaman web.
+<paragraph>: elemen yang digunakan untuk menandai blok teks sebagai sebuah paragraf atau alinea.

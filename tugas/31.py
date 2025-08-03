@@ -1,0 +1,1 @@
+n = int(input("Masukkan Input: "))

@@ -1,0 +1,67 @@
+body {
+  background-image: url('/study.html/hyperlink/picture/picture_5.jpeg');
+  background-size: 1500px;
+}
+
+p.center-text {
+  text-align: center;
+}
+
+h2.center-text {
+  text-align: center;
+}
+
+#email {
+  margin-left: 25px;
+}
+
+ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px;
+  background-color: rgb(192, 168, 157);
+}
+
+ul.navbar li {
+  float: left;
+}
+
+ul.navbar li a {
+  display: block;
+  color: bisque;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.navbar li a:hover:not(.active) {
+  background-color: rgb(97, 72, 72);
+}
+
+ul.navbar li a.active {
+  color: white;
+  background-color: rgb(163, 135, 135);
+}
+
+.form-button {
+  display: block;
+  margin: 10px auto;
+  font-size: inherit;
+  color: rgb(91, 89, 86);
+  background-color: rgb(245, 229, 205);
+  font-family: cursive;
+  border: 1px;
+  padding: 5px 20px;
+}
+
+
+.social-icon {
+  vertical-align: middle;
+  width: 25px;
+}
+
+div#food {
+  border-radius: 50%;
+}

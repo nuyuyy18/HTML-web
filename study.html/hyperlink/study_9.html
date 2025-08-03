@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elemen Form, Textarea, Date, Checkbox, Select, Label</title>
+</head>
+<body>
+    <form action="">
+        <p>Username : <input type="text" name="Username"></p>
+        <p>password : <input type="password" name="password"></p>
+        <button type="submit" name="submit">login</button>
+
+        <h4>Membuat form yang membutuhkan banyak data</h4>
+        <p>Alamat Lengkap : <textarea name="" id="" cols="80" rows="5">Alamat Lengkap</textarea></p>
+
+        <h4>Membuat Input dengan data tanggal</h4>
+        <p>Tanggal Lahir : <input type="date"></p>
+
+        <h4>Radio Button (membuat daftar pilihan, hanya 1 yang boleh dipilih user) pada Elemen Form</h4>
+        <p>Jenis Kelamin : 
+            <input type="radio" name="jenis_kelamin" value="Laki-Laki">Laki-Laki 
+            <input type="radio" name="jenis_kelamin" value="Perempuan">Perempuan
+            <!-- Atribut name u/ memberi tahu browser input yang dibuat merupakan satu huruf (nilai atribut name harus sama) -->
+             <!-- Atribut value akan dikirim dan di proses di database (wajib ada)-->
+        </p> 
+        <p>Golongan golongan darah
+            <input type="radio" name="golongan_darah" value="A">A
+            <input type="radio" name="golongan_darah" value="B">B
+            <input type="radio" name="golongan_darah" value="AB">AB
+            <input type="radio" name="golongan_darah" value="O">O
+        </p>
+
+        <h4>Input dengan type checkbox</h4>
+        <p>Hobby</p>
+            <p><input type="checkbox" name="hobby" value="Membaca">Membaca</p>
+            <p><input type="checkbox" name="hobby" value="Menulis">Menulis</p>
+            <p><input type="checkbox" name="hobby" value="Ngoding">Ngoding</p>
+            <p><input type="checkbox" name="hobby" value="Olahraga">Olahraga</p>
+       
+        <h4>Tag Select u/ membuat daftar pilihan dalam bentuk dropdown </h4>
+        <p>Pilih Jurusan : 
+            <select name="" id="">
+              <option value="">Teknik Komputer</option> 
+              <option value="">Manajemen Informatika</option> 
+              <option value="">Sistem Informasi</option>
+              <option value="" selected>Teknik Informatika</option>
+              selected u/ pilihan langsung pada web
+            </select>
+        </p>
+
+        <h4>label u/ memudahkan user dalam berinteraksi di hal form yang kita buat (klik keterangan juga bisa)</h4>
+         <p><label for="username">Username</label>
+         <input type="text" name="" id="username"></p>
+         <p>Pilihan
+            <label for="pilihan">
+            <input type="checkbox" name="" id="pilihan"> HTML
+            </label>
+
+            <p>Jenis Kelamin : 
+                <label for="laki_laki">
+                <input type="radio" name="jenis_kelamin" id="laki_laki">Laki-Laki
+                </label>
+                <label for="perempuan">
+                <input type="radio" name="jenis_kelamin" id="perempuan">Perempuan
+                </label>
+            </p>
+         </p>
+        
+    </form>
+</body>
+</html>
