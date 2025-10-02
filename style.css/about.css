@@ -1,0 +1,64 @@
+body {
+    background-image: url('/study.html/hyperlink/picture/picture_5.jpeg');
+    background-size: 1500px;
+}
+
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px;
+    background-color: rgb(192, 168, 157);
+}
+
+ul.navbar li {
+    float: left;
+}
+
+ul.navbar li a {
+    display: block;
+    color: bisque;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.navbar li a:hover:not(.active) {
+    background-color: rgb(97, 72, 72);
+}
+
+ul.navbar li a.active {
+    color: white;
+    background-color: rgb(163, 135, 135);
+}
+
+.clear-bg li {
+    background-color: transparent;
+}
+
+.center-text {
+    text-align: center;
+}
+
+
+div.container {
+    display: grid;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+    background-color: rgb(236, 223, 218);
+    gap: 10px;
+
+}
+
+div.column {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    text-align: center;
+    background-color: rgb(200, 183, 163);
+    padding: 30px;
+
+}

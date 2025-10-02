@@ -1,0 +1,50 @@
+body {
+    background-image: url('/study.html/hyperlink/picture/picture_5.jpeg');
+    background-size: 1500px;
+}
+
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px;
+    background-color: rgb(192, 168, 157);
+}
+
+ul.navbar li {
+    float: left;
+}
+
+ul.navbar li a {
+    display: block;
+    color: bisque;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.navbar li a:hover:not(.active) {
+    background-color: rgb(97, 72, 72);
+}
+
+ul.navbar li a.active {
+    color: white;
+    background-color: rgb(163, 135, 135);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 500px 500px;
+    gap: 10px;
+    background-color: rgb(224, 216, 208);
+    padding: 50px;
+    margin: 100px;
+}
+
+div.grid-container {
+    background-color: rgb(237, 230, 230);
+    padding: 10px;
+    justify-items: center;
+}
